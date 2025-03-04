@@ -46,9 +46,10 @@ footer {
 }
 
 .logo {
-    width: 50%;
+    width: 60%;
     padding: 10px;
     margin-left: 8px;
+    padding-bottom: 20px;
 }
 
 
@@ -64,6 +65,15 @@ ul {
     list-style-type: none;
     position: relative;
 }
+
+.home{
+    position: relative;
+    display: inline-block
+
+}
+
+
+
 
 
 
@@ -84,4 +94,36 @@ ul {
     width: 10%;
     position: absolute;
     
+}
+
+.centered-text{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 62%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-text-2{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 62%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.img-size{
+    width: 10%;
+}
+
+.py-left{
+    padding-left: 12px;
+}
+
+.py-top{
+    padding-top: 15px
 }
