@@ -56,6 +56,37 @@ footer {
     text-decoration-color: #ADFF2F;
 }
 
+.main-center{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 13%;
+    margin: 2% 0% 0% 2%;
+}
+
+.card-image{
+    text-align: center;
+    line-height: 30px;
+    
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.main-center-middle{
+    display: flex;
+}
+
+.main-center-down{
+    display: flex;
+}
+
+
 .logo {
     width: 60%;
     padding: 10px;
@@ -70,6 +101,7 @@ footer {
     color: white;
     display: inline-block;
     padding: 10px 35px;
+    margin-right: 20px;
 }
 
 ul {
@@ -187,6 +219,7 @@ ul {
     background-color: #C1C1C1;
     z-index: 1;
     height: 100%;
+    border-radius: 10px;
 }
 
 .volume{
@@ -210,6 +243,7 @@ ul {
     background-color: #C1C1C1;
     z-index: 1;
     height: 100%;
+    border-radius: 10px;
 }
 
 .volume-icon{
@@ -219,6 +253,7 @@ ul {
     margin-right: 3%;
     
 }
+
 
 
 
@@ -345,8 +380,16 @@ ul {
     margin-left: 30px;
 }
 
-.my-top {
+.my-left-4{
+    margin-left: 2%;
+}
+
+.my-top{
     margin-top: 10px;
+}
+
+.my-top-2{
+    margin-top: 3%;
 }
 
 .my-right-30{
@@ -371,4 +414,26 @@ ul {
 
 .vertical-align{
     vertical-align: middle;
+}
+
+.border-radius-autor{
+border-radius: 50%;
+}
+
+/*hover*/
+
+.btn:hover{
+    scale: 1.1;
+}
+
+.first-element:hover{
+    color: white;
+}
+
+.second-element:hover{
+    color: white;
+}
+
+.third-element:hover{
+    background-color: white;
 }
