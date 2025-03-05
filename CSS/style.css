@@ -121,34 +121,42 @@ ul {
     display: flex;
     align-items: center;
     
+}
 
-    
+.list-image{
+    margin: 3% 0% 0% 3%;
+}
+
+.sinister-icon{
+    width: 14%;
+    margin: 3% 0% 0% 11%;
 }
 
 .play{
     width: 50%;
     text-align: center;
-    
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
-.volume{
-    width: 25%;
-}
 
 .progress-bar{
     display: flex;
-    
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
 }
 
 
 .progress-line{
     height: 3px;
-    width: 50%;
+    width: 40%;
     border-radius: 10px;
     background-color: #5A5A5A;
-    margin: 5% 25% 0% 25%;
+    margin: 0% 1% 0% 1%;
 }
 
 .space{
@@ -156,6 +164,11 @@ ul {
     background-color: #C1C1C1;
     z-index: 1;
     height: 100%;
+}
+
+.volume{
+    width: 25%;
+    display: flex;
 }
 
 
@@ -176,6 +189,10 @@ ul {
 
 .col-black {
     color: #000000;
+}
+
+.col-grey{
+    color: #838383;
 }
 
 .bg-grey{
@@ -217,8 +234,8 @@ ul {
 }
 
 .sinister-size{
-    width: 23%;
-    margin: 9% 0% 0% 9%;
+    width: 11%;
+    margin: 3% 0% 0% 9%;
 }
 
 .profile-size{
@@ -266,6 +283,10 @@ ul {
     margin-top: 10px;
 }
 
+.my-right-30{
+    margin-right: 30%;
+}
+
 .line-height {
     line-height: 40px;
 }
@@ -280,4 +301,8 @@ ul {
 
 .white-space{
     white-space: nowrap;
+}
+
+.vertical-align{
+    vertical-align: middle;
 }
