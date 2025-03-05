@@ -113,10 +113,19 @@ img {
 
 
 .logo {
-    width: 60%;
+    width: 180px;
     padding: 10px;
     margin-left: 8px;
     padding-bottom: 20px;
+    display: block;
+}
+
+.logo-small{
+    width: 55px;
+    padding: 10px;
+    margin-left: 8px;
+    padding-bottom: 20px;
+    display: none; 
 }
 
 
@@ -136,7 +145,6 @@ ul {
 
 .home {
     position: relative;
-    display: inline-block
 }
 
 .square-cross {
@@ -175,12 +183,12 @@ ul {
 }
 
 .user {
-    width: 10%;
+    width: 30px;
     border: 1px solid white;
     border-radius: 50%;
     height: 24%;
     display: flex;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .sinister {
@@ -201,7 +209,7 @@ ul {
 }
 
 .sinister-icon {
-    width: 14%;
+    width: 20%;
     margin: 3% 0% 0% 11%;
 }
 
@@ -254,7 +262,7 @@ ul {
     width: 300px;
     display: flex;
     align-items: center;
-    padding-top: 1%;
+    
 }
 
 .volume-bar {
@@ -366,7 +374,7 @@ ul {
 
 
 .img-size {
-    width: 10%;
+    width: 30px;
     opacity: 0.5;
 }
 
@@ -551,6 +559,36 @@ ul {
         flex-wrap: wrap;
         gap: 8%;
         line-height: 70px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:576px) {
+    .hidden{
+        display: none;
+    }
+
+    .logo{
+        display:none ;
+    }
+
+    .logo-small{
+        display: block;
+    }
+
+    #sidebar{
+        width: 70px;
+    }
+
+    #content{
+        width: calc(100% - 70px)
+    }
+
+    .user{
+        margin-top: 20px;
     }
 
 
