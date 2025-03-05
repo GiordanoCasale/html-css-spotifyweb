@@ -16,12 +16,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    z-index: 3;
 }
 
 main {
     height: calc(100vh - 100px);
     background-color: #141922;
     display: flex;
+    
 }
 
 footer {
@@ -65,6 +67,7 @@ footer {
 .card {
     width: 200px;
     margin: 2% 0% 0% 2%;
+    display: flex;
 }
 
 .card-image {
@@ -532,3 +535,15 @@ ul {
 }
 
 /*Responsive*/
+
+@media screen and (max-width:1200px) {
+    .content-list{
+        flex-wrap: wrap;
+        gap: 8%;
+        line-height: 30px;
+    }
+
+    
+
+
+}
